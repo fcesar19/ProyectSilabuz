@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+
+{% block formulario %}
+
+    {data.nombre.label}
+    {data.nombre}
+
+    {data.hora_entrada.label}
+    {data.hora_entrada}
+
+{% endblock formulario %}
+
+
+{% block javascript %}
+
+<script>
+    var id = document.getElementById('iddeprueba');
+    console.log('id -> ',id)
+
+
+</script>
+
+
+{% endblock javascript %}
